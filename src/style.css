@@ -1,0 +1,130 @@
+body{
+    font-family: 'Quattrocento', serif;
+}
+
+h1{
+    color: #0F0F2D;
+}
+
+h2{
+    border-bottom: solid 1px rgb(221, 221, 221);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+}
+
+.btn-create{
+    background: #555A88;
+    border: none;
+    height: 30px;
+    color: #F7F7F7;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    width: 50%;
+    border: solid 1px #ccc;
+    margin-bottom: 20px;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.width{
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+    background: #F7F7F7;
+    height: 30px;
+}
+
+.btn-add{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+    background: #555A88;
+    height: 30px;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.container-users{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    text-align: center;
+}
+
+.circle{
+    height: 40px;
+    font-size: 40px;
+    color: rgb(215, 215, 215);
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-grup{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    border-top: solid 1px rgb(221, 221, 221);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn-grup i {
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.red{
+    color: red;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 100px;
+}
+
+
+
