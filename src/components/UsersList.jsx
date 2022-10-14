@@ -5,7 +5,7 @@ const UsersList = ({users, getUsers, selectUser}) => {
 
     const deleteUser = (id) => {
         axios
-            .delete(`https://users-crud1.herokuapp.com/users/${id}/`)
+            .delete(`http://144.126.218.162:9000/users/${id}/`)
             .then(() => getUsers())
             alert(`Usuario eliminado exitosamente!`);
     }

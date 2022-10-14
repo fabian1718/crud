@@ -17,7 +17,7 @@ function App() {
 
   const getUsers = () => {
     axios
-      .get("https://users-crud1.herokuapp.com/users/")
+      .get("http://144.126.218.162:9000/users/")
       .then((res) => setUsers(res.data));
   };
 
